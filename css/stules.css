@@ -41,7 +41,37 @@ button {
     margin-right: auto;
 }
 
+.socials-icon{
+    
+}
 
+.socials-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    width: 40px;
+    height: 40px;
+  
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: #FFFFFF;
+}
+
+.svg {
+    width: 264px;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
 
 .logo{
     
@@ -159,8 +189,38 @@ button {
 
 
 .main-page{
+    max-width: 1440px;
+    max-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 188px 0;
-    background:  var(--black);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../css/Dark-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.customers{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    padding-top: 136px;
+    padding-bottom: 72px;
+}
+
+.group-of-icons{
+    display: flex;
+    gap: 24px;
+    padding-bottom: 114px;
+}
+
+.group-icons{
+    width: 168px;
+    height: 88px;
+    border: 1px solid #2E2F42;
+    border-radius: 4px;
 }
 
 .container-header{
@@ -208,6 +268,9 @@ button {
     margin: 0 auto;
 }
 
+.box{
+
+}
 
 .portfolio-header{
     display: flex;
