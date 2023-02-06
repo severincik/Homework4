@@ -210,6 +210,12 @@ button {
     padding-bottom: 72px;
 }
 
+.svg-content{
+    width: 264px;
+    height: 112px;
+    background: var(--white);
+}
+
 .group-of-icons{
     display: flex;
     gap: 24px;
