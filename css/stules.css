@@ -211,9 +211,12 @@ button {
 }
 
 .svg-content{
+    display: block;
+    margin-bottom: 8px;
     width: 264px;
     height: 112px;
     background: var(--white);
+    justify-content: center;
 }
 
 .group-of-icons{
