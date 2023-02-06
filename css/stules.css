@@ -403,6 +403,8 @@ button {
 
 .footer-content{
     padding: 100px 0;
+    display: flex;
+    gap: 120px;
 }
 
 .advice{
@@ -424,14 +426,29 @@ button {
 }
 .footer{
     background: var(--black);
-    display: flex;
-    gap: 120px;
 }
 
 .logo-advice{
 
 }
 
+.content-footer-svg{
+    width: 208px;
+    height: 80px;
+}
+
+.footer-svg{
+    display: flex;
+}
+
+.title-footer{
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: var(--button);
+    line-height: 1.5;
+}
 
 .visually-hidden { 
     position: absolute; 
