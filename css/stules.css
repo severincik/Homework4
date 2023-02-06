@@ -215,8 +215,7 @@ button {
     margin-bottom: 8px;
     width: 264px;
     height: 112px;
-    background: var(--white);
-    justify-content: center;
+    background-color: var(--white);
 }
 
 .group-of-icons{
