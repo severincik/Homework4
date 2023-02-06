@@ -222,6 +222,10 @@ button {
     background-color: var(--white);
 }
 
+.icons{
+    padding: 16px 32px;
+}
+
 .group-of-icons{
     display: flex;
     gap: 24px;
