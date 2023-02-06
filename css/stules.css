@@ -42,7 +42,11 @@ button {
 }
 
 .socials-icon{
-    margin-top: 8px;
+    
+}
+
+.socials-item{
+
 }
 
 .icon{
@@ -51,12 +55,11 @@ button {
 
 .socials-link {
     display: flex;
+    gap: 24px;
     align-items: center;
     justify-content: center;
-  
     width: 40px;
     height: 40px;
-  
     background-color: var(--web);
     border-radius: 50%;
 }
@@ -67,14 +70,11 @@ button {
     justify-content: center;
     gap: 10px;
     background: var(--button);
+    margin-top: 8px;
 }
 
 .svg {
-    width: 264px;
-    height: 112px;
-    display: flex;
-    justify-content: center;
-    padding: 16px;
+   
 }
 
 .logo{
@@ -231,7 +231,7 @@ button {
 .group-icons{
     width: 168px;
     height: 88px;
-    border: 1px solid #2E2F42;
+    border: 1px solid #8E8F99;
     border-radius: 4px;
 }
 
