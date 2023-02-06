@@ -57,7 +57,7 @@ button {
     width: 40px;
     height: 40px;
   
-    background-color: #FFFFFF;
+    background-color: var(--web);
     border-radius: 50%;
 }
 
@@ -66,7 +66,7 @@ button {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    background: #FFFFFF;
+    background: var(--button);
 }
 
 .svg {
@@ -87,7 +87,7 @@ button {
 
 .header{
     display: flex;
-    border-bottom: 1px solid #E7E9FC;
+    border-bottom: 1px solid var(--advice);
     padding: 24px 0;
 }
 
