@@ -49,6 +49,10 @@ button {
 
 }
 
+.icon-content{
+    margin: 24px 100px;
+}
+
 .icon{
     margin: 16px 32px;
 }
@@ -439,6 +443,7 @@ button {
 
 .footer-svg{
     display: flex;
+    gap: 16px;
 }
 
 .title-footer{
