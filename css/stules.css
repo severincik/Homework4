@@ -424,6 +424,8 @@ button {
 }
 .footer{
     background: var(--black);
+    display: flex;
+    gap: 120px;
 }
 
 .logo-advice{
