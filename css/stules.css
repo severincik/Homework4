@@ -1,6 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
+    color: var(--black);
 }
 
 /* reset styles */
@@ -43,6 +43,10 @@ button {
 
 .socials-icon{
     
+}
+
+.icon{
+    padding: 24px 100px;
 }
 
 .socials-link {
