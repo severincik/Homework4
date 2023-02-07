@@ -46,11 +46,11 @@ button {
 }
 
 .socials-item{
-
+    
 }
 
 .icon-content{
-    margin: 24px 100px;
+    
 }
 
 .icon{
@@ -66,6 +66,10 @@ button {
     height: 40px;
     background-color: var(--web);
     border-radius: 50%;
+}
+
+.socials-link:hover{
+    background: var(--link);
 }
 
 .socials {
@@ -143,8 +147,8 @@ button {
     border-radius: 0px 0px 4px 4px;
 }
 
-.card{
-    
+.card:hover{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .name, .specialty{
@@ -189,6 +193,7 @@ button {
     --button:#FFFFFF ;
     --white:#F4F4FD;
     --advice:#E7E9FC; 
+    --green: #31D0AA;
   }
 
 .web{
@@ -219,7 +224,9 @@ button {
 }
 
 .svg-content{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 8px;
     width: 264px;
     height: 112px;
@@ -453,6 +460,22 @@ button {
     letter-spacing: 0.02em;
     color: var(--button);
     line-height: 1.5;
+}
+
+.socials-footer{
+    fill: var(--button);
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--black);
+}
+
+.socials-footer:hover{
+    background: var(--green);
 }
 
 .visually-hidden { 
