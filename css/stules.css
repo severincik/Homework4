@@ -58,7 +58,7 @@ button {
 }
 
 .icon:hover{
-    color: var(--link);
+    justify-content: var(--link);
 }
 
 .socials-link {
