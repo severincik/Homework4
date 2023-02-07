@@ -58,7 +58,7 @@ button {
 }
 
 .icon:hover::before{
-    color: var(--link);
+    fill: var(--link);
 }
 
 .socials-link {
