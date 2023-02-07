@@ -57,7 +57,7 @@ button {
     margin: 16px 32px;
 }
 
-.icon:hover::before{
+.icon:hover{
     fill: var(--link);
 }
 
