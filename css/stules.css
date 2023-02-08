@@ -198,6 +198,7 @@ button {
     --white:#F4F4FD;
     --advice:#E7E9FC; 
     --green: #31D0AA;
+    --svg: #8E8F99;
   }
 
 .web{
@@ -250,8 +251,12 @@ button {
 .group-icons{
     width: 168px;
     height: 88px;
-    border: 1px solid #8E8F99;
+    border: 1px solid var(--svg);
     border-radius: 4px;
+}
+
+.link-svg{
+    fill: var(--svg);
 }
 
 .link-svg:hover{
