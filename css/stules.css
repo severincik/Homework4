@@ -254,10 +254,13 @@ button {
     border-radius: 4px;
 }
 
+.link-svg:hover{
+    fill: var(--link);
+}
+
 .group-icons:hover{
     border: 1px solid var(--link);
     border-radius: 4px;
-    fill: var(--link);
 }
 
 .container-header{
