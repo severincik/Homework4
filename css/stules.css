@@ -55,6 +55,7 @@ button {
 
 .icon{
     margin: 16px 32px;
+    fill: var(--svg);
 }
 
 .icon:hover{
@@ -253,10 +254,6 @@ button {
     height: 88px;
     border: 1px solid var(--svg);
     border-radius: 4px;
-}
-
-.link-svg{
-    fill: var(--svg);
 }
 
 .link-svg:hover{
