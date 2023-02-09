@@ -83,7 +83,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 24px;
     background: var(--button);
     margin-top: 8px;
 }
@@ -154,7 +154,8 @@ button {
     border-radius: 0px 0px 4px 4px;
 }
 
-.card:hover{
+.card:hover,
+.card:focus{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
@@ -259,11 +260,13 @@ button {
     fill: var(--svg);
 }
 
-.link-svg:hover{
+.link-svg:hover,
+.link-svg:focus{
     fill: var(--link);
 }
 
-.group-icons:hover{
+.group-icons:hover,
+.group-icons:focus{
     border: 1px solid var(--link);
     border-radius: 4px;
 }
@@ -279,7 +282,8 @@ button {
     font-size: 16px;
 }
 
-.link:hover{
+.link:hover,
+.link:focus{
     color: var(--link);
 }
 
@@ -291,7 +295,8 @@ button {
     letter-spacing: 0.02em;
 }
 
-.contacts-link:hover{
+.contacts-link:hover
+.contacts-link:focus{
     color: var(--web);
 }
 
@@ -338,14 +343,16 @@ button {
     margin-bottom: 72px;
 }
 
-.hero-button:hover{
+.hero-button:hover,
+.hero-button:focus{
     color: var(--button);
     background-color: var(--link);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border: 1px solid var(--link);
 }
 
-.filter-button:hover{
+.filter-button:hover
+.filter-button:focus{
     background-color: var(--link);
 }
 
@@ -494,7 +501,8 @@ button {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.socials-footer:hover{
+.socials-footer:hover,
+.socials-footer:focus{
     background: var(--green);
 }
 
