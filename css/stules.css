@@ -295,7 +295,7 @@ button {
     letter-spacing: 0.02em;
 }
 
-.contacts-link:hover
+.contacts-link:hover,
 .contacts-link:focus{
     color: var(--web);
 }
@@ -351,7 +351,7 @@ button {
     border: 1px solid var(--link);
 }
 
-.filter-button:hover
+.filter-button:hover,
 .filter-button:focus{
     background-color: var(--link);
 }
