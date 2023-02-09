@@ -58,7 +58,8 @@ button {
     fill: var(--svg);
 }
 
-.icon:hover{
+.icon:hover
+.icon:focus{
     fill: var(--link);
 }
 
