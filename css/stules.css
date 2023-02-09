@@ -73,7 +73,8 @@ button {
     border-radius: 50%;
 }
 
-.socials-link:hover:focus{
+.socials-link:hover
+.socials-link:focus{
     background: var(--link);
 }
 
