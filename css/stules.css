@@ -255,6 +255,11 @@ button {
     border-radius: 4px;
 }
 
+.link-svg{
+    justify-content: center;
+    align-items: center;
+}
+
 .link-svg:hover,
 .link-svg:focus{
     color: var(--link);
