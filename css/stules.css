@@ -53,6 +53,8 @@ button {
 }
 
 .icon{
+    justify-content: center;
+    align-items: center;
 }
 
 .icon:hover{
@@ -261,8 +263,6 @@ button {
 
 .link-svg{
     fill: var(--svg);
-    justify-content: center;
-    align-items: center;
 }
 
 .link-svg:hover,
