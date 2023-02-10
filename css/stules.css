@@ -53,8 +53,7 @@ button {
 }
 
 .icon{
-    justify-content: center;
-    align-items: center;
+    
 }
 
 .icon:hover{
@@ -259,6 +258,8 @@ button {
     height: 88px;
     border: 1px solid var(--svg);
     border-radius: 4px;
+    justify-content: center;
+    align-items: center;
 }
 
 .link-svg{
