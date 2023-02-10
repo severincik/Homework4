@@ -130,7 +130,7 @@ button {
     padding-top: 96px;
 }
 
-.section-1{
+.section-card{
     padding: 120px 0;
 }
 
@@ -167,7 +167,7 @@ button {
     
 }
 
-.section-2{
+.section-item{
     padding-bottom: 120px;
 }
 
@@ -177,9 +177,14 @@ button {
 
 
 
-.section-3{
+.section-name{
     padding: 120px 0;
     background: var(--white);
+}
+
+.section-customers{
+    padding-top: 130px;
+    padding-bottom: 120px;
 }
 
 .team-title{
@@ -228,7 +233,6 @@ button {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding-top: 136px;
     padding-bottom: 72px;
 }
 
@@ -249,7 +253,6 @@ button {
 .group-of-icons{
     display: flex;
     gap: 24px;
-    padding-bottom: 114px;
 }
 
 .group-icons{
@@ -269,7 +272,6 @@ button {
 .group-icons:focus{
     border: 1px solid var(--link);
     border-radius: 4px;
-    fill: var(--link);
 }
 
 .container-header{
@@ -285,7 +287,8 @@ button {
 
 .link:hover,
 .link:focus{
-    color: var(--link);
+    border: 0.5px solid #F4F4FD;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .contacts-link{
