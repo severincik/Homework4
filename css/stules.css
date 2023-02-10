@@ -54,14 +54,7 @@ button {
 }
 
 .icon{
-    justify-content: center;
-    align-items: center;
     fill: var(--svg);
-}
-
-.icon:hover,
-.icon:focus{
-    fill: var(--link);
 }
 
 .socials-link {
@@ -264,7 +257,7 @@ button {
 
 .link-svg:hover,
 .link-svg:focus{
-    color: var(--link);
+    fill: var(--link);
 }
 
 .group-icons:hover,
