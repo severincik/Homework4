@@ -257,7 +257,7 @@ button {
 
 .link-svg:hover,
 .link-svg:focus{
-    fill: var(--link);
+    color: var(--link);
 }
 
 .group-icons:hover,
