@@ -227,13 +227,12 @@ button {
 }
 
 .customers{
-    font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.1;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .svg-content{
@@ -260,12 +259,11 @@ button {
     height: 88px;
     border: 1px solid var(--svg);
     border-radius: 4px;
-    fill: var(--svg);
 }
 
 .link-svg:hover,
 .link-svg:focus{
-    fill: var(--link);
+    color: var(--link);
 }
 
 .group-icons:hover,
