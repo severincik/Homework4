@@ -53,6 +53,8 @@ button {
 }
 
 .icon{
+    justify-content: center;
+    align-items: center;
     fill: var(--svg);
 }
 
