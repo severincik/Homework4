@@ -290,6 +290,11 @@ button {
     font-size: 16px;
 }
 
+.menu:hover,
+.menu:focus{
+    color: var(--link);
+}
+
 .link-card:hover,
 .link-card:focus{
     border: 0.5px solid #F4F4FD;
