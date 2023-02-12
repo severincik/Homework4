@@ -53,7 +53,8 @@ button {
 }
 
 .icon{
-    display: block;
+    margin: 0;
+    padding: 0;
 }
 
 .icon:hover{
@@ -248,6 +249,7 @@ button {
 
 .group-of-icons{
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
     justify-content: center;
     align-items: center;
@@ -262,6 +264,8 @@ button {
 
 .link-svg{
     fill: var(--svg);
+    justify-content: center;
+    align-items: center;
 }
 
 .link-svg:hover,
@@ -502,7 +506,7 @@ button {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: var(--black);
+    background: rgba(255, 255, 255, 0.1);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
