@@ -258,12 +258,6 @@ button {
     color: var(--link);
 }
 
-.group-icons{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .link-svg{
     display: flex;
     fill: var(--svg);
