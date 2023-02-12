@@ -260,10 +260,6 @@ button {
 
 .group-icons{
     display: flex;
-    width: 168px;
-    height: 88px;
-    border: 1px solid var(--svg);
-    border-radius: 4px;
     align-items: center;
     justify-content: center;
 }
@@ -271,21 +267,22 @@ button {
 .link-svg{
     display: flex;
     fill: var(--svg);
+    width: 168px;
+    height: 88px;
+    border: 1px solid var(--svg);
+    border-radius: 4px;
     justify-content: center;
     align-items: center;
 }
 
 .link-svg:hover,
 .link-svg:focus{
-    fill: var(--link);
-}
-
-.group-icons:hover,
-.group-icons:focus{
     border: 1px solid var(--link);
     border-radius: 4px;
-    fill: var(--link);
+    color: var(--link);
 }
+
+
 
 .container-header{
     display: flex;
