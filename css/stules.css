@@ -253,6 +253,11 @@ button {
     gap: 24px;
 }
 
+.group-of-icons:hover,
+.group-of-icons:focus{
+    color: var(--link);
+}
+
 .group-icons{
     display: flex;
     width: 168px;
