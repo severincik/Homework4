@@ -277,14 +277,14 @@ button {
 
 .link-svg:hover,
 .link-svg:focus{
-    color: var(--link);
+    fill: var(--link);
 }
 
 .group-icons:hover,
 .group-icons:focus{
     border: 1px solid var(--link);
     border-radius: 4px;
-    color: var(--link);
+    fill: var(--link);
 }
 
 .container-header{
