@@ -263,6 +263,7 @@ button {
 }
 
 .link-svg{
+    display: flex;
     fill: var(--svg);
     justify-content: center;
     align-items: center;
