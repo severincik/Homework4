@@ -53,7 +53,7 @@ button {
 }
 
 .icon{
-    
+    display: block;
 }
 
 .icon:hover{
