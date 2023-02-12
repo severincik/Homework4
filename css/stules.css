@@ -251,15 +251,16 @@ button {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    justify-content: center;
-    align-items: center;
 }
 
 .group-icons{
+    display: flex;
     width: 168px;
     height: 88px;
     border: 1px solid var(--svg);
     border-radius: 4px;
+    align-items: center;
+    justify-content: center;
 }
 
 .link-svg{
